@@ -632,8 +632,8 @@ function splitNprocessPoem()
     // console.log(oPoem);
 }
 
-var charW = 18; 
-var charH = 18; 
+var charW = 20; 
+var charH = 20; 
 var paddingLeft = 10;
 var lineSpacing = 5;
 var fShowText = true;
@@ -682,6 +682,7 @@ function draw()
           .enter().append("svg:text")
             .attr("y", charH-2)
             .attr("x", function(d) {return drawCharTxtPos(d);})
+            .attr("style","font-size:14px")
             .attr("text-anchor", "middle")
             .text(function(d) {return d.text;});
     }
@@ -763,7 +764,7 @@ function drawStyleCharBlock(c,colorBy)
 	  return "display: none";
 
 	var color = "white";
-	var strokeOp = "1";
+	var strokeOp = "0.3";
 	var strokeW = 1;
 	var fillOp = "0.2";
 

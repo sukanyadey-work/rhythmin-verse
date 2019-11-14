@@ -23,7 +23,11 @@
 <body>
 <!-- software interface -->
 अपनी हिन्दी कविता यहां कापी-पेस्ट करिए<br/>
-<div contenteditable="true" placeholder="यहाँ ..." class="test" id='pom'></div>
+<div style="display: inline-block;">
+  <div contenteditable="true" placeholder="यहाँ ..." class="test" id='pom'></div>
+  <br>
+  <input type="button" value="Visualize!" onclick="visualize();">
+</div>
 <div style="display: inline-block;vertical-align: top">
   <div id="chart" align="center" style="background-color:white;"></div>
   <div style="display:none" id="divControls">
@@ -37,7 +41,7 @@
 <table style="background-color:white">
 <tr><td valign="top">
 <br>
-<input type="button" value="Visualize!" onclick="visualize();"></td>
+</td>
 <td valign="top">
 	
   </td></tr></table>
