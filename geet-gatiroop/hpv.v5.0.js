@@ -587,7 +587,7 @@ function visualize()
 function splitNprocessPoem()
 {
     oPrevPoem = oPoem;
-	oPoem = new cPoem(document.getElementById("pom").value);
+	oPoem = new cPoem(document.getElementById("pom").innerText);
     const lines = oPoem.text.split("\n");
     let oldLines = []
     if (typeof oPrevPoem !== 'undefined') oldLines = oPrevPoem.originalText.split("\n");
@@ -650,7 +650,7 @@ function draw()
 	chart.select("svg").remove();
 	var svg = chart.append("svg")
 	          .attr("width", function() {return (fFreeVerse?charW*maxLen+120:charW*maxLen+100);})
-	          .attr("height", function() {return (fLineSpacing?(lineCount*(charH+lineSpacing))+(charH*2):(lineCount*charH)+(charH*2));})
+	          .attr("height", function() {return (fLineSpacing?(lineCount*(charH+lineSpacing))+(charH):(lineCount*charH)+(charH));})
 	          .attr("style","border-bottom: solid 1px #ddd;");
 
 	// create the "g"s (svg groups) for each line
@@ -661,7 +661,7 @@ function draw()
 		.enter().append("svg:g")
 		  .attr("transform", function(d,i) 
 		    { 
-		      return "translate(" + paddingLeft + "," + ((i*(charH+lineSpacing))+(charH+lineSpacing)) + ")"; 
+		      return "translate(" + paddingLeft + "," + (i*(charH+lineSpacing)) + ")"; 
 		    })
 		  .attr("id", function(d,i) { return "gLine"+i});
 	}
@@ -671,7 +671,7 @@ function draw()
 		.data(oPoem.lines)
 		.enter().append("svg:g")
 		  .attr("transform", function(d,i) 
-		    { return "translate(" + paddingLeft + "," + ((i*(charH))+(charH)) + ")" })
+		    { return "translate(" + paddingLeft + "," + (i*charH) + ")" })
 		  .attr("id", function(d,i) { return "gLine"+i});
 	}
 
