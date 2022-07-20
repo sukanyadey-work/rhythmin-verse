@@ -10,7 +10,7 @@
    height="398.60199"
    viewBox="0 0 417.73599 398.60199"
    xml:space="preserve"
-   sodipodi:docname="three-horizontal-straight-lines-svgrepo-com.svg"
+   sodipodi:docname="white-three-horizontal-straight-lines-svgrepo-com.svg"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -41,23 +41,23 @@
    units="px" />
 <g
    id="g10"
-   style="fill:#800080"
+   style="fill:#ffffff"
    transform="matrix(0.75000045,0,0,0.78157561,0,-18.359993)">
 	<g
    id="g8"
-   style="fill:#800080">
+   style="fill:#ffffff">
 		<path
    d="M 536.846,23.491 H 20.135 C 9.015,23.491 0,32.506 0,43.62 v 107.37 c 0,11.12 9.015,20.128 20.135,20.128 h 516.711 c 11.121,0 20.135,-9.015 20.135,-20.128 V 43.626 c -0.006,-11.12 -9.014,-20.135 -20.135,-20.135 z"
    id="path2"
-   style="fill:#800080" />
+   style="fill:#ffffff" />
 		<path
    d="M 536.846,204.68 H 20.135 C 9.015,204.68 0,213.694 0,224.809 v 107.369 c 0,11.12 9.015,20.129 20.135,20.129 h 516.711 c 11.121,0 20.135,-9.015 20.135,-20.129 V 224.809 c -0.006,-11.121 -9.014,-20.129 -20.135,-20.129 z"
    id="path4"
-   style="fill:#800080" />
+   style="fill:#ffffff" />
 		<path
    d="M 536.846,385.862 H 20.135 C 9.015,385.862 0,394.877 0,405.991 V 513.36 c 0,11.12 9.015,20.129 20.135,20.129 h 516.711 c 11.121,0 20.135,-9.015 20.135,-20.129 V 405.991 c -0.006,-11.114 -9.014,-20.129 -20.135,-20.129 z"
    id="path6"
-   style="fill:#800080" />
+   style="fill:#ffffff" />
 	</g>
 </g>
 <g
