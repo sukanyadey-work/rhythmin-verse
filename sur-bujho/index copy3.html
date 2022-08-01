@@ -145,67 +145,72 @@ popup.classList.toggle("show");
 </script>
 </head>
 <body>
-<div class=" grid-container">
-  <div class="grid-item popup"style="text-align: left;" onclick="showHidePopup('new-popup')">
-    <img  src="white-three-horizontal-straight-lines-svgrepo-com.svg"style="width: 32px;vertical-align: middle;">
-      <span class="popuptext popuptext-above" id="new-popup">
-      <a href="https://geet-gatiroop.manaskriti.com">Geet-Gatiroop</a>
-      <a href="https://kaavyaalaya.org/">Kaavyalaya</a>
-      <a href="https://vani-expressions.manaskriti.com/">vani-expressions</a>
-      <a href="mailto:vani.murarka@gmail.com">Contact</a>
+<div class="grid-container">
+    <div class="grid-item" style="text-align: left;">
+      <span class="popup" onclick="showHidePopup('new-popup')">
+        <img  src="white-three-horizontal-straight-lines-svgrepo-com.svg"style="width: 32px;">
+        <span class="popuptext popuptext-above" id="new-popup">
+          <a href="https://geet-gatiroop.manaskriti.com">Geet-Gatiroop</a>
+          <a href="https://kaavyaalaya.org/">Kaavyalaya</a>
+          <a href="https://vani-expressions.manaskriti.com/">vani-expressions</a>
+          <a href="mailto:vani.murarka@gmail.com">Contact</a>
+        </span>
       </span>
-  </div>
-  <div>
-    <img src="white-question-mark-svgrepo-com.svg"style="width: 32px;vertical-align: middle;text-align: left;">
-  </div>
-  <div class="grid-item" style="text-align:center;">
-    <img src="sur-bujho small.svg" style="width: 250px;">
-  </div> 
-  <div >
-    <img id="myBtn" src="white-statistics-bars-.svg"style="width: 32px;vertical-align:middle;">
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="modal-close">&times;</span>
-        <p id="modalText" style="display:table;margin:0 auto;text-align: left;">
-          Level 1: 0%<br>
-          Level 2: 0%<br>
-          Level 3: 0%<br>
-          Level 4: 0%<br>
-          Level 5: 0%<br>
-          Level 6: 0%<br>
-          Level 7: 0%<br>
-          Level 8: 0%<br>
-          Level 9: 0%<br>
-          Level 10: 0%<br>
-          Level 11: 0%<br>
-          Level 12: 0%<br>
-          Level 13: 0%<br>
-          Level 14: 0%<br>
-        </p>
-      </div>
+      <span>
+        <img src="white-question-mark-svgrepo-com.svg"style="width: 32px;">
+      </span>
     </div>
-  <div class="popup" onclick="showHidePopup('s')">   
-       <img src="white-settings-svgrepo-com.svg"style="width: 32px;vertical-align:middle;">
-     <div class="popuptext popuptext-above1" id="s">
-        Scale:
-        <select id="selectScale" style="font-size: inherit;background-color:white">
-         <option value="0" selected>G</option>
-         <option value="1">G#</option>
-         <option value="2">A</option>
-         <option value="3">A#</option>
-         <option value="4">B</option>
-         <option value="5">C</option>
-         <option value="6">C#</option>
-         <option value="7">D</option>
-         <option value="8">D#</option>
-         <option value="9">E</option>
-         <option value="10">F</option>
-         <option value="11">F#</option>
-        </select><br><br></div>
-</div>
-</div>
+    <div class="grid-item" style="text-align:center;">
+      <img src="sur-bujho small.svg" style="width: 250px;">
+    </div>
+    <div class="grid-item" style="text-align: right;"> 
+      <span>
+        <img id="myBtn" src="white-statistics-bars-.svg" style="width: 32px;vertical-align:middle;">
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <p id="modalText" style="display:table;margin:0 auto;text-align: left;">
+              Level 1: 0%<br>
+              Level 2: 0%<br>
+              Level 3: 0%<br>
+              Level 4: 0%<br>
+              Level 5: 0%<br>
+              Level 6: 0%<br>
+              Level 7: 0%<br>
+              Level 8: 0%<br>
+              Level 9: 0%<br>
+              Level 10: 0%<br>
+              Level 11: 0%<br>
+              Level 12: 0%<br>
+              Level 13: 0%<br>
+              Level 14: 0%<br>
+            </p>
+          </div>
+        </div>
+      </span>
+      <span class="popup" onclick="showHidePopup('s')">   
+           <img src="white-settings-svgrepo-com.svg"style="width: 32px;vertical-align:middle;">
+         <div class="popuptext popuptext-above1" id="s">
+            Scale:
+            <select id="selectScale" style="font-size: inherit;background-color:white">
+             <option value="0" selected>G</option>
+             <option value="1">G#</option>
+             <option value="2">A</option>
+             <option value="3">A#</option>
+             <option value="4">B</option>
+             <option value="5">C</option>
+             <option value="6">C#</option>
+             <option value="7">D</option>
+             <option value="8">D#</option>
+             <option value="9">E</option>
+             <option value="10">F</option>
+             <option value="11">F#</option>
+            </select><br><br>
+          </div>
+      </span>
+    </div>
 </div>
 <div class="box-game">
   <div class="b open" >LEVEL 1
@@ -255,4 +260,4 @@ window.onclick = function(event) {
 }
 </script>
 </body>
-
+</html>
