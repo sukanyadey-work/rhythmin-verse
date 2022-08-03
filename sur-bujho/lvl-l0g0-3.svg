@@ -120,5 +120,25 @@
        d="M 38.028972,2.2140155 V 0.45582672 h 1.888425 1.888425 V 2.2140155 3.9722043 h -1.888425 -1.888425 z"
        id="path3657"
        transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
+    <path
+       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0748192;paint-order:stroke markers fill"
+       d="M 9.2467706,2.2140155 V 0.45582672 h 1.8884254 1.888425 V 2.2140155 3.9722043 H 11.135196 9.2467706 Z"
+       id="path2943"
+       transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
+    <path
+       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0748192;paint-order:stroke markers fill"
+       d="M 13.414329,2.2140155 V 0.32559051 h 1.888425 1.888425 v 1.88842499 1.888425 h -1.888425 -1.888425 z"
+       id="path2982"
+       transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
+    <path
+       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0748192;paint-order:stroke markers fill"
+       d="M 25.526296,2.2140155 V 0.32559051 h 1.823307 1.823307 v 1.88842499 1.888425 h -1.823307 -1.823307 z"
+       id="path3021"
+       transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
+    <path
+       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0748192;paint-order:stroke markers fill"
+       d="M 38.028972,2.2140155 V 0.45582672 h 1.888425 1.888425 V 2.2140155 3.9722043 h -1.888425 -1.888425 z"
+       id="path3060"
+       transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
   </g>
 </svg>

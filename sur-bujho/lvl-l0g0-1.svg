@@ -29,7 +29,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="9.1653588"
-     inkscape:cx="8.5648583"
+     inkscape:cx="8.5648584"
      inkscape:cy="-6.4918353"
      inkscape:window-width="1366"
      inkscape:window-height="745"
@@ -45,7 +45,7 @@
      id="layer1"
      transform="translate(2.5049161,-1.36081)">
     <rect
-       style="opacity:1;fill:#ff00ff;stroke:#ffffff;stroke-width:0.169283;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       style="opacity:1;fill:#e100e4;stroke:#ffffff;stroke-width:0.169283;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;fill-opacity:1"
        id="rect291"
        width="1.0065087"
        height="0.98929328"
@@ -101,7 +101,7 @@
        x="6.3387594"
        y="1.434086" />
     <path
-       style="fill:#ff00ff;stroke:#ffffff;stroke-width:0.0626804;paint-order:stroke markers fill"
+       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0626804;paint-order:stroke markers fill;fill-opacity:1"
        d="M 38.07816,2.2366827 V 0.38187266 h 1.909363 1.909364 V 2.2366827 4.0914928 H 39.987523 38.07816 Z"
        id="path2795"
        transform="matrix(0.26458333,0,0,0.26458333,-2.5049161,1.36081)" />

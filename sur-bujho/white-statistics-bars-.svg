@@ -8,7 +8,7 @@
    y="0px"
    width="48"
    height="48"
-   viewBox="0 0 48.000001 48.000001"
+   viewBox="0 0 48.000001 48"
    xml:space="preserve"
    sodipodi:docname="white-statistics-bars-.svg"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
@@ -30,15 +30,16 @@
    fit-margin-right="0"
    fit-margin-bottom="0"
    inkscape:zoom="5.3918298"
-   inkscape:cx="45.160921"
-   inkscape:cy="40.895208"
+   inkscape:cx="44.975455"
+   inkscape:cy="39.967879"
    inkscape:window-width="1366"
    inkscape:window-height="745"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
    inkscape:current-layer="Capa_1"
-   units="px" />
+   units="px"
+   width="46.842529px" />
 
 
 
@@ -57,7 +58,7 @@
 
 <g
    id="g963"
-   transform="matrix(0.11721583,0,0,0.11986817,-7.2620872e-4,-0.00122175)"><g
+   transform="matrix(0.11611131,0,0,0.11900498,1.0664399e-4,0.50231188)"><g
      id="g10"
      transform="matrix(12.85534,0,0,12.620571,0.5383971,-1.2924811)"
      style="fill:#ffffff">

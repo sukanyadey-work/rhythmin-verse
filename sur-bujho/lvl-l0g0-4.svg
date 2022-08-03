@@ -125,5 +125,30 @@
        d="M 8.6965668,2.1912609 V 0.37662297 H 10.545443 12.39432 V 2.1912609 4.0058989 H 10.545443 8.6965668 Z"
        id="path3974"
        transform="matrix(0.26458333,0,0,0.26458333,86.772449,140.27913)" />
+    <path
+       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0393392;paint-order:stroke markers fill"
+       d="M 8.6965668,2.1912609 V 0.37662297 H 10.545443 12.39432 V 2.1912609 4.0058989 H 10.545443 8.6965668 Z"
+       id="path3230"
+       transform="matrix(0.26458333,0,0,0.26458333,86.772449,140.27913)" />
+    <path
+       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0393392;paint-order:stroke markers fill"
+       d="M 12.805181,2.2254994 V 0.30814607 h 1.917353 1.917354 V 2.2254994 4.1428527 h -1.917354 -1.917353 z"
+       id="path3269"
+       transform="matrix(0.26458333,0,0,0.26458333,86.772449,140.27913)" />
+    <path
+       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0393392;paint-order:stroke markers fill"
+       d="M 16.982272,2.1570225 V 0.23966916 h 1.814638 1.814638 V 2.1570225 4.0743758 H 18.79691 16.982272 Z"
+       id="path3308"
+       transform="matrix(0.26458333,0,0,0.26458333,86.772449,140.27913)" />
+    <path
+       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0393392;paint-order:stroke markers fill"
+       d="M 24.925593,2.1570225 V 0.23966916 h 1.848876 1.848877 V 2.1570225 4.0743758 h -1.848877 -1.848876 z"
+       id="path3347"
+       transform="matrix(0.26458333,0,0,0.26458333,86.772449,140.27913)" />
+    <path
+       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0393392;paint-order:stroke markers fill"
+       d="M 37.388389,2.1912609 V 0.37662297 h 1.951592 1.951592 v 1.81463793 1.814638 h -1.951592 -1.951592 z"
+       id="path3386"
+       transform="matrix(0.26458333,0,0,0.26458333,86.772449,140.27913)" />
   </g>
 </svg>

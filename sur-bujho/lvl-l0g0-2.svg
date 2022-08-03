@@ -29,7 +29,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="14.566769"
-     inkscape:cx="32.917389"
+     inkscape:cx="14.519349"
      inkscape:cy="-9.78254"
      inkscape:window-width="1366"
      inkscape:window-height="745"
@@ -114,6 +114,11 @@
        style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0394383;paint-order:stroke markers fill"
        d="M 9.2676694,2.2311056 V 0.37757172 h 1.8535336 1.853534 V 2.2311056 4.0846395 H 11.121203 9.2676694 Z"
        id="path3380"
+       transform="matrix(0.26458333,0,0,0.26458333,87.587705,138.45482)" />
+    <path
+       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0394383;paint-order:stroke markers fill"
+       d="M 9.2676694,2.2311056 V 0.37757172 h 1.8535336 1.853534 V 2.2311056 4.0846395 H 11.121203 9.2676694 Z"
+       id="path2778"
        transform="matrix(0.26458333,0,0,0.26458333,87.587705,138.45482)" />
   </g>
 </svg>

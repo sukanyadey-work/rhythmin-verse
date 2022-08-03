@@ -63,15 +63,13 @@ background-color:grey;
 }
 .popuptext-above
 {
-  bottom: 20%;
   left: 30%;
-  margin-left: -30px;
+  margin-left:-10px;
 }
 .popuptext-above1
 {
-  top: 40%;
-  right: 10%;
-  margin-left: -30px;
+  right: 0%;
+  margin-left:0px;
 }
 .popuptext a 
 {
@@ -135,6 +133,9 @@ to {opacity:1 ;}
   text-decoration: none;
   cursor: pointer;
 }
+.big {
+  font-size: 150%;
+}
 </style>
 <script>
 // When the user clicks on div, open the popup
@@ -148,7 +149,7 @@ popup.classList.toggle("show");
 <div class="grid-container">
     <div class="grid-item" style="text-align: left;">
       <span class="popup" onclick="showHidePopup('new-popup')">
-        <img  src="white-three-horizontal-straight-lines-svgrepo-com.svg"style="width: 32px;">
+        <img  src="white-three-horizontal-straight-lines-svgrepo-com.svg"style="width: 32px;vertical-align:middle;">
         <span class="popuptext popuptext-above" id="new-popup">
           <a href="https://geet-gatiroop.manaskriti.com">Geet-Gatiroop</a>
           <a href="https://kaavyaalaya.org/">Kaavyalaya</a>
@@ -157,13 +158,13 @@ popup.classList.toggle("show");
         </span>
       </span>
       <span>
-        <img src="white-question-mark-svgrepo-com.svg"style="width: 32px;">
+        <img src="white-question-mark-svgrepo-com.svg"style="width: 32px;vertical-align:middle;">
       </span>
     </div>
     <div class="grid-item" style="text-align:center;">
       <img src="sur-bujho small.svg" style="width: 250px;">
     </div>
-    <div class="grid-item" style="text-align: right;"> 
+    <div class="grid-item" style="text-align:right;"> 
       <span>
         <img id="myBtn" src="white-statistics-bars-.svg" style="width: 32px;vertical-align:middle;">
         <!-- The Modal -->
@@ -212,26 +213,46 @@ popup.classList.toggle("show");
       </span>
     </div>
 </div>
-<div class="box-game">
-  <div class="b open" >LEVEL 1
-       <img  src="lvl-l0g0-1.svg"style="width: 100%;  ">
+<div class="level-game-box" style="font-family: sans-serif;text-align: center;background-color: grey;color: white;">
+  <div style="font-size: 30px;"><b>LEVEL 1</b> </div>
+  <br>
+  <div id="guessButtons" style="text-align: center;"> 
+  <input type="button" value="S" class="big noteBtn" id="btn-S" style="background-color:#e100e4ff">
+  <input type="button" value=" " class="big noteBtn" id="btn-b">
+  <input type="button" value=" " class="big noteBtn" id="btn-b">
+  <input type="button" value=" " class="big noteBtn" id="btn-b">
+  <input type="button" value=" " class="big noteBtn" id="btn-b">
+  <input type="button" value=" " class="big noteBtn" id="btn-b">
+  <input type="button" value=" " class="big noteBtn" id="btn-b">
+  <input type="button" value="S''" class="big noteBtn" id="btn-S''"style="background-color:#e100e4ff">
+</div>
+  <br>
+  <br>
+  <div><input type="button" class="big bold" value="Start" id="btnStart">
+    <br>
+    <br><br>
+  <div>
+    <label for="volume"><b>Volume</b></label>
+      <input type="range" id="volume" name="volume" min="0.5" max="15" value="5">
+    </div><br><br><br>
+    
+    <div>
+      <b>Round:</b> <span id="txtRound">0</span> 
+      <b>|Total Rounds:</b> <span id="txtTotalRounds">0</span>
+    </div>
+    <div class="big">
+      <b>Score</b>: <span id="txtScore">0</span>
+    </div>
+</div>
+<div id="guessButtons" style="text-align: center;"> 
   </div>
-  <div class="b close">LEVEL 2
-    <img  src="lvl-l0g0-2.svg"style="width: 100%; ">
+  <div id="playAgainBtns" style="text-align:center;display: none;">
+    <br>
+      <input id="SAgain" type="button" value="🔁 S" onclick="fPlaySAgain();"> <input type="button" value="🔁 Guess Note" onclick="fPlayGuessNoteAgain();"> <input id="playTuneAgain" type="button" value="🔁 Tune" onclick="fTuneAgain();" style="display: none;">
   </div>
-  <div class="b close">LEVEL 3
-    <img  src="lvl-l0g0-3.svg"style="width: 100%;">
+  <div id="notePattern" style="text-align: left;"><span class="dot" id="myDot1"></span><span class="dot" id="myDot2"></span><span class="dot" id="myDot3"></span><span class="dot" id="myDot4"></span><span class="dot" id="myDot5"></span><span class="dot" id="myDot6"></span><span class="dot" id="myDot7"></span><span class="dot" id="myDot8"></span>
   </div>
-  <div class="b close">LEVEL 4
-        <img  src="lvl-l0g0-4.svg"style="width: 100%;">   
-  </div>
-  <div class="b close">LEVEL 5
-    <img  src="lvl-l0g0-5.svg"style="width: 100%;">
-  </div>
-  <div class="b close">LEVEL 6</div>
-  <div class="b close">LEVEL 6</div>
-  <div class="b close">LEVEL 7</div>
-</div> 
+
 <script>
 // Get the modal
 var modal = document.getElementById("myModal");
@@ -260,4 +281,4 @@ window.onclick = function(event) {
 }
 </script>
 </body>
-</html>
+
