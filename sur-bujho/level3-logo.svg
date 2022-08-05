@@ -8,7 +8,7 @@
    version="1.1"
    id="svg2826"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="lvl-l0g0-3.svg"
+   sodipodi:docname="level3-logo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -107,11 +107,6 @@
        transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
     <path
        style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0748192;paint-order:stroke markers fill"
-       d="M 13.414329,2.2140155 V 0.32559051 h 1.888425 1.888425 v 1.88842499 1.888425 h -1.888425 -1.888425 z"
-       id="path3579"
-       transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
-    <path
-       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0748192;paint-order:stroke markers fill"
        d="M 25.526296,2.2140155 V 0.32559051 h 1.823307 1.823307 v 1.88842499 1.888425 h -1.823307 -1.823307 z"
        id="path3618"
        transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
@@ -121,14 +116,9 @@
        id="path3657"
        transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
     <path
-       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0748192;paint-order:stroke markers fill"
+       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0748192;paint-order:stroke markers fill;fill-opacity:1"
        d="M 9.2467706,2.2140155 V 0.45582672 h 1.8884254 1.888425 V 2.2140155 3.9722043 H 11.135196 9.2467706 Z"
        id="path2943"
-       transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
-    <path
-       style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0748192;paint-order:stroke markers fill"
-       d="M 13.414329,2.2140155 V 0.32559051 h 1.888425 1.888425 v 1.88842499 1.888425 h -1.888425 -1.888425 z"
-       id="path2982"
        transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
     <path
        style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0748192;paint-order:stroke markers fill"
@@ -139,6 +129,11 @@
        style="fill:#e100e4;stroke:#ffffff;stroke-width:0.0748192;paint-order:stroke markers fill"
        d="M 38.028972,2.2140155 V 0.45582672 h 1.888425 1.888425 V 2.2140155 3.9722043 h -1.888425 -1.888425 z"
        id="path3060"
+       transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
+    <path
+       style="fill:#e100e4;fill-opacity:1;stroke:#ffffff;stroke-width:0.0748192;paint-order:stroke markers fill"
+       d="M 13.414329,2.2140155 V 0.32559051 h 1.888425 1.888425 v 1.88842499 1.888425 h -1.888425 -1.888425 z"
+       id="path3337"
        transform="matrix(0.26458333,0,0,0.26458333,96.559278,141.77994)" />
   </g>
 </svg>
